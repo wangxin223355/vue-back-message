@@ -1,9 +1,10 @@
 <template>
   <div class="login_container">
     <div class="login_box">
-      <!-- 头像区域 -->
-      <div class="avatar_box">
-        <img src="../assets/logo.png" alt />
+      <!-- logo区域 -->
+      <div class="logo">
+        <h2>电商后台管理系统</h2>
+        <p>Vue+Element-UI @wangxin</p>
       </div>
       <!-- 登录表单区域 -->
       <el-form
@@ -89,7 +90,7 @@ export default {
 <style lang="less" scoped>
 .login_container {
   background: url('../assets/b6a36d3f678b71e5388b332d90cec3cb.jpg') no-repeat;
-  background-position-x: -450px;
+  // background-position-x: -450px;
   background-size: cover;
   height: 100%;
 }
@@ -103,23 +104,16 @@ export default {
   top: 50%;
   opacity: 0.8;
   transform: translate(-50%, -50%);
-
-  .avatar_box {
-    padding: 10px;
-    height: 130px;
-    width: 130px;
-    border: 1px solid #eeeeee;
-    border-radius: 50%;
-    box-shadow: 0 0 10px #dddddd;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #ffffff;
-    img {
-      width: 100%;
-      height: 100%;
-      border-radius: 50%;
-      background-color: #eeeeee;
+  .logo {
+    text-align: center;
+    h2 {
+      font-size: 30px;
+      margin: 20px 0 10px 0;
+      text-shadow: -3px 2px 1px rgba(0, 0, 0, 0.5);
+    }
+    p {
+      margin: 0;
+      font-size: 12px;
     }
   }
 }
