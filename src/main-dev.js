@@ -19,7 +19,6 @@ import 'quill/dist/quill.bubble.css' // for bubble theme
 import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
 
-
 // 导入axios
 import axios from 'axios'
 // 配置请求的根路径
@@ -49,7 +48,7 @@ Vue.component('tree-table', TreeTable)
 Vue.use(VueQuillEditor)
 
 // 全局格式化时间的过滤器
-Vue.filter('dataFormat', function (originVal) {
+Vue.filter('dataFormat', function(originVal) {
   const dt = new Date(originVal)
 
   const y = dt.getFullYear()

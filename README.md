@@ -1,4 +1,4 @@
-# vue_shop
+Vue.js_PC端电商后台管理系统项目 
 
 ## Project setup
 ```
