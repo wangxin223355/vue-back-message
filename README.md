@@ -1,4 +1,4 @@
-Vue.js_PC端电商后台管理系统项目 
+基于 vue + element-ui 的后台管理系统
 
 ## Project setup
 ```
